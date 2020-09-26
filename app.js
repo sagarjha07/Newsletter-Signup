@@ -38,7 +38,7 @@ app.post("/",function(req,res){
     const jsondata=JSON.stringify(data);
 
     //https.request(url,options,function(response))
-    const url="https://us2.api.mailchimp.com/3.0/lists/28d84225b";
+    const url="https://us2.api.mailchimp.com/3.0/lists/28d84225b3";
     const options={
         method:"POST",
         auth:"SAGAR:8885a844f2ac85906831641f183e05ef-us2"
